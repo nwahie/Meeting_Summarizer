@@ -348,15 +348,7 @@ listLen = len(scoredList)
 # Set the key to the scored value. 
 for i in range(listLen):
     word_dict[' '.join(scoredList[i][0])] = scoredList[i][1]
- 
-word_dict['executive dashboard'] = .013
-word_dict['meeting CEO'] = .0121
-word_dict['health performace'] = .01209
-word_dict['year target'] = .01208
-word_dict['marketing strategy'] = .01207
-word_dict['therapeutic area'] = .01204
-word_dict['weekly refresh'] = .01203
-word_dict['self explanatory'] = .011
+
 
 # -----
  
